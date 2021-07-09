@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".FinishActivity">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank you for using Trivia"
+        android:textSize="20dp"
+        android:layout_gravity="center|top"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/userText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello: Mohammad Jeeshan"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Who is the best cricketer in the world?"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/ans1Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ans:"
+            android:textSize="18dp"
+            android:textColor="#D81B60" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What are the colors in the national flag?"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/ans2Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ans:"
+            android:textSize="18dp"
+            android:textColor="#D81B60" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="10dp"/>
+
+</FrameLayout>

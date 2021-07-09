@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/gameDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Game: 09.07.2021   08:45"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/gameUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mohammad Jeeshan"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#D81B60"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Who is the best cricketer in the world?"
+        android:textSize="18dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/gameAns1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ans:"
+        android:textSize="18dp"
+        android:textColor="#D81B60" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What are the colors in the national flag?"
+        android:textSize="18dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/gameAns2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ans:"
+        android:textSize="18dp"
+        android:textColor="#D81B60" />
+
+</LinearLayout>
