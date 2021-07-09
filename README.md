@@ -6,4 +6,4 @@ http://mjsiddiqui.me/
 
 
 # How application work (Let's Watch)
-https://user-images.githubusercontent.com/66344914/125020141-ee700600-e095-11eb-8f8d-77fa2c5908a6.mp4
+https://user-images.githubusercontent.com/66344914/125026788-e7032980-e0a2-11eb-9e81-fb38f818622d.mp4
